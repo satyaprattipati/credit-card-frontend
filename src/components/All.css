@@ -1,0 +1,239 @@
+.leftimg {
+  background-image: url("./img/main.webp");
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: contain;
+  height: 100vh;
+  background-attachment: fixed;
+  /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75) */
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* SEARCH CARDNUMBER */
+.transaction {
+  background-image: url("./img/transaction.webp");
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  height: 100vh;
+  background-attachment: fixed;
+
+  background-position: center;
+}
+.go {
+  background-color: rgb(64, 219, 55);
+  /* background-color: rgb(53, 204, 227); */
+  border-radius: 5px;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* USER-DASHBOARD */
+.main {
+  background-color: rgb(0, 123, 255);
+  /* background-color: rgb(0, 247, 255); */
+  border-radius: 5px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.userdashbord {
+  background-color: #13696c;
+  background-image: url("./img/userdash.gif");
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  height: 99vh;
+  background-attachment: fixed;
+  box-shadow: 10px 10px 5px 0px rgba(35, 33, 33, 0.75);
+  background-position: center;
+}
+/* --------------------------------------------------------------------- */
+/* APPLICATION */
+.lastpage {
+  background-image: url("./img/last.webp");
+  height: 100vh;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* CARD-TYPES */
+.buy {
+  background-color: rgb(31, 229, 44);
+  border-radius: 5px;
+  color: rgb(240, 244, 255);
+}
+.cards {
+  background-color: rgb(139, 230, 230);
+  background-image: url("./img/cardtype.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* height: 100vh; */
+  background-attachment: fixed;
+
+}
+.card-img {
+  height: 11rem;
+
+  width: 20rem;
+
+  padding-top: 10px;
+
+  align-items: center;
+
+  justify-content: center;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------*/
+/* edit-user */
+.edit {
+  /* background-image: url(""); */
+  background-color: antiquewhite;
+  background-color: rgba(8, 128, 241, 0.728);
+  /* background-color: rgb(79, 231, 229); */
+}
+/* ----------------------------------------------------------------------- */
+/* VIEW - TRANSACTIONS */
+
+.viewtransaction {
+  background-image: url("./img/viewtransaction.webp");
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  height: 100vh;
+  background-attachment: fixed;
+  
+  background-position: center;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Logout part */
+.buttonlearn {
+  display: inline-block;
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  background-color: rgb(244, 19, 19);
+  padding: 6px 6px;
+  border: 0px solid #050505;
+  border-radius: 10px;
+}
+.buttonlearn:hover {
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px #cb1e43, 0 0 50px #c20000;
+  }
+}
+/* ----------------------------------------------------------------- */
+/* DELETE */
+.delet {
+  display: inline-block;
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  background-color: rgb(247, 0, 0);
+  padding: 5px 5px;
+  border: 0px solid #050505;
+  border-radius: 10px;
+}
+.delet:hover {
+  animation: pulsate 1s ease-in-out;
+}
+
+.deletepage {
+  background-image: url("./img/delet.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 89vh;
+  background-position: center;
+}
+/* ------------------------------------------------------------------------- */
+/* adminsearchtransaction */
+.adminsearchtransaction {
+  background-color: rgb(201, 224, 231);
+  box-shadow: 10px 10px 5px 0px rgba(103, 170, 169, 0.75);
+  background-image: url("./img/gif.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: contain;
+  height: 89vh;
+}
+/* -------------------------------------------------------------------------------------- */
+/* admin-bashbord */
+.admin {
+  /* background-color: yellow; */
+  background-image: url("./img/adminpage.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+  height: 89vh;
+  box-shadow: 10px 10px 5px 0px rgba(8, 12, 14, 0.75);
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* home */
+
+.user {
+ 
+  background-image: url("./img/vid.gif");
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: contain;
+
+  height: 90vh;
+
+  background-attachment: fixed;
+
+  box-shadow: 10px 10px 5px 0px rgba(8, 12, 14, 0.75);
+}
+
+.navbar-wrapper {
+  position: static;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  left: 0;
+  z-index: 20;
+}
+/* ------------------------------------------------------------------------------------------- */
+/* USER-DETAILS */
+.userdetails {
+  background-image: url("./img/main.webp");
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  height: 100vh;
+  background-attachment: fixed;
+
+  background-position: center;
+}
+/* ---------------------------------------------------------------- */
+.color{
+  background-color: rgb(38, 43, 44);
+  color :rgb(255, 255, 255)
+}
+
+#color{
+  color: rgb(18, 241, 10);
+}
+/* ----------------------------------------------------------------------------- */
+/* USER -ID -SEARCH */
+.useridsearch{
+  background-image: url("./img/userdetails.png");
+  background-repeat: no-repeat;
+
+  background-size: contain;
+  height: 100vh;
+  background-attachment: fixed;
+
+  background-position: center;
+}
+/* ------------------------------------------------------------------------ */

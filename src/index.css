@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+
+}
+
+
+
+h1{
+  color: rgb(18, 241, 10);
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* -------------------------------------- */
+.navbar {
+  background-color: none;
+  /* padding: 20px 20px; */
+  /* z-index: 99; */
+  /* position: relative; */
+}
+
+.button-styling{
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgba(12, 212, 239, 0.959);
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  border: 0px;
+
+}
+.navbar-brand {
+  font-size: 40px;
+
+}
+
+.navbar li {
+  padding: 0 2rem;
+
+}
+
+.navbar li a {
+  font-size: 20px;
+  font-weight:bold;
+  
+
+}
+
+/* .navbar li a:hover {
+  color: rgb(60, 104, 104) !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+} */
+
+.btn-style {
+  width: 150px;
+  height: 40px;
+  border-radius: 2rem;
+  
+  /* color: rgb(132, 159, 188); */
+  /* background-color: var(--primary-color); */
+  /* text-transform: capitalize; */
+  /* font-size: 2rem; */
+}
+
+/* .bodyHeading {
+  color: rgb(145, 47, 81);
+  margin-top: 1rem;
+} */
+
+/* .newButton {
+  width: 20rem;
+  height: 9rem;
+  margin-top: 9%;
+  margin-left: -5%;
+  border-radius: 2rem;
+  font-size: 2rem;
+  color: rgb(210, 74, 74);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+} */
+/* .newButton:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: rgb(184, 121, 11);
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+  text-transform: capitalize;
+} */
+
+/* .btn-style:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+  text-transform: capitalize;
+} */
+
+.navbar-toggler{
+  color: rgb(255, 255, 255);
+  background-color: rgb(32, 227, 14);
+}
+
+
+/* .kaka{
+  background-color: blue;
+ 
+} */
+
+.dada{
+  border: solid red 3px;
+/* background-image: url(""); */
+  background-color:black;
+  /* background-image: url(); */
+}
+
+
+.fount{
+  
+    font-weight: bold;
+    color: rgb(82, 236, 82);
+}
