@@ -227,7 +227,7 @@
 /* ----------------------------------------------------------------------------- */
 /* USER -ID -SEARCH */
 .useridsearch{
-  background-image: url("./img/userdetails.png");
+  background-image: url("#");
   background-repeat: no-repeat;
 
   background-size: contain;

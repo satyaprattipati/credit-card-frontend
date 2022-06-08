@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { baseUrl } from "../URL/AppConstants";
-import Logout from "./Logout";
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+
+import {  Col, Container,  Row } from 'react-bootstrap';
 import AdminLogout from "./AdminLogout";
 
 function AdminSearchCardNumber() {

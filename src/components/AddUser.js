@@ -55,7 +55,7 @@ function AddUser() {
     if (!user.pincode) {
       errors["pincodeErr"] = "Enter Pincode";
     }
-    if (!user.dob) {
+    if (!user.dob ) {
       errors["dobErr"] = "Enter Date of Birth";
     }
     if (!user.gender) {
@@ -103,9 +103,7 @@ function AddUser() {
         <Row>
           <Col >
     <div>
-      <h1>
-        <b><i>REGISTER</i></b>
-      </h1>
+    <h1 style={{color:'yellow'}}><b>Please Enter The Following Details</b></h1>
       <div
         className="Login"
         class="row h-100 justify-content-center align-items-center"
@@ -115,6 +113,7 @@ function AddUser() {
             <div>
               <label>First Name</label>
               <input
+              placeholder="first name"
                 className="form-control"
                 type="text"
                 name="fName"
@@ -130,6 +129,7 @@ function AddUser() {
             <div className="form-group">
               <label>Lastst Name</label>
               <input
+              placeholder="last name"
                 className="form-control"
                 type="text"
                 name="lName"
@@ -145,6 +145,7 @@ function AddUser() {
             <div className="form-group">
               <label> Email Id</label>
               <input
+              placeholder="email id"
                 className="form-control"
                 type="email"
                 name="mail"
@@ -160,6 +161,7 @@ function AddUser() {
             <div className="form-group">
               <label>Phone Number</label>
               <input
+              placeholder="phone number"
                 className="form-control"
                 type="number"
                 name="phNumber"
@@ -175,6 +177,7 @@ function AddUser() {
             <div className="form-group">
               <label>Education</label>
               <input
+              placeholder="education"
                 className="form-control"
                 type="text"
                 name="education"
@@ -190,6 +193,7 @@ function AddUser() {
             <div className="form-group">
               <label> Village</label>
               <input
+              placeholder="village"
                 className="form-control"
                 type="text"
                 name="village"
@@ -205,6 +209,7 @@ function AddUser() {
             <div className="form-group">
               <label>City</label>
               <input
+              placeholder="city"
                 className="form-control"
                 type="text"
                 name="city"
@@ -220,6 +225,7 @@ function AddUser() {
             <div className="form-group">
               <label> State</label>
               <input
+              placeholder="state"
                 className="form-control"
                 type="text"
                 name="state"
@@ -235,6 +241,7 @@ function AddUser() {
             <div className="form-group">
               <label> pincode</label>
               <input
+              placeholder="pincode"
                 className="form-control"
                 type="number"
                 name="pincode"
@@ -265,6 +272,7 @@ function AddUser() {
             <div className="form-group">
               <label> Gender</label>
               <input
+              placeholder="gender"
                 className="form-control"
                 type="text"
                 name="gender"
@@ -280,6 +288,7 @@ function AddUser() {
             <div className="form-group">
               <label>Income</label>
               <input
+              placeholder="income"
                 className="form-control"
                 type="number"
                 name="income"
@@ -295,6 +304,7 @@ function AddUser() {
             <div className="form-group">
               <label>UserName</label>
               <input
+              placeholder="user name"
                 className="form-control"
                 type="text"
                 name="userName"
@@ -310,6 +320,7 @@ function AddUser() {
             <div className="form-group">
               <label>Password</label>
               <input
+              placeholder="password"
                 className="form-control"
                 type="password"
                 name="password"

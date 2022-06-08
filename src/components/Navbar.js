@@ -9,7 +9,7 @@ const Navbar = () => {
         <div class="container">
           <a class="navbar-brand" href="#">
           
-            <h1><b><i style={{ color: "blue" }}>CREDITCARD SYSTEM</i></b></h1>
+            <h1><b><i style={{ color: "blue" }}>satya</i></b></h1>
            
           </a>
           <button

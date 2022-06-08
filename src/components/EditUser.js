@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router";
-import { Link } from "react-router-dom";
+
 import { baseUrl } from "../URL/AppConstants";
 import AdminLogout from "./AdminLogout";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import {  Container,  } from "react-bootstrap";
 export default function EditUser() {
   const [user, setUser] = useState({
     fName: "",
